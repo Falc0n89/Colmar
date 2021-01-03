@@ -1,32 +1,141 @@
-html {
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 body {
     display: flex;
     width: auto;
+    flex-direction: column;
 }
 
 header {
     display: flex;
     width: 100%;
+    max-height: 45vw;
 }
 
 .navbar {
+    background-color: white;
     position: fixed;
     z-index: 100;
     width: 100%;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    align-content: center;
+}
+
+li {
+    display: flex;
+    align-items: center;
 }
 
 .navlinks a {
+    align-self: auto;
     text-decoration: none;
     color: black;
+    padding-left: 16px;
 }
 
 .logo  {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.logo img{
+    height: 32px;
+    width: auto;
+    align-self: center;
+}
+
+/* Banner Section */
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(209, 211, 211);
+    padding: 32px 12px 32px 24px;
+}
+
+.bannerimg {
+    box-sizing: border-box;
+    display: flex;
+    max-width: 60%;
+   
+}
+
+.bannerimg img {
+    width: 100%;
+    max-height: 100%;
+    min-width: 0;
+    min-height: fit-content;
+}
+
+.bannerinfo {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: stretch;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin-left: 24px;
+    max-width: 40%;
+}
+
+.bannerinfo h1 {
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+.bannerinfo h2 {
+    padding: 20px 0px;
+} 
+
+.begin, .btn {
+    justify-content: center;
+    align-items: center;
     display: inline-flex;
+    height: 60px;
+    max-width: 100%;
+    margin: 20px 0px;
+    padding: 8px 0px;
+    background-color: rgb(71, 71, 71);
+}
+
+/* Information Section */
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.information {
+    display: flex;
+    max-width: 60%;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 32px 12px 32px 24px;
+}
+
+.information img {
+    width: 100%;
+    max-height: 100%;
+    min-width: 0;
+}
+
+.asideinfo {
+    display: flex;
+    max-width: 40%;
+    margin: 32px 16px;
+}
+
+.asideinfo img {
+    width: 100%;
+    max-height: 100%;
+    min-width: 0;
 }
