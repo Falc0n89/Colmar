@@ -250,13 +250,21 @@ main {
     flex-direction: column;
     padding: 32px 12px 0px 24px;
     margin-bottom: 32px;
+    align-items: center;
+}
+
+.thesistitle {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 .viddiv {
     max-width: 100%;
     box-sizing: border-box;
     flex-direction: column;
-    padding: 32px 24px 24px 24px;
+    padding: 0px 24px 24px 24px;
 }
 
 .viddiv video {
@@ -279,13 +287,14 @@ main {
     max-width: 40%;
     max-height: auto;
     height: auto;
-    margin: 32px 0px 0px 16px;
+    margin: 0px 0px 0px 16px;
     padding-top: 32px;
 }
 
 .minivid {
     display: flex;
     flex-direction: row; 
+    align-items: center;
 }
 
 .minivid img {
@@ -295,4 +304,10 @@ main {
     max-height: auto;
     height: auto;
     margin: 16px 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 24px;
 }
