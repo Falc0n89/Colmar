@@ -111,7 +111,7 @@ li {
 
 main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .first {
@@ -127,6 +127,10 @@ main {
     flex-direction: column;
     padding: 32px 12px 0px 24px;
     
+}
+
+.information p {
+    margin-top: 24px;
 }
 
 .information img {
@@ -170,4 +174,125 @@ main {
 
 .miniinfo a {
     text-decoration: none;
+}
+
+/*Courses Section */
+
+.second {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 61px 32px 61px;
+    background-color: rgb(209, 211, 211);
+} 
+
+.second h1 {
+    margin: 32px 0px;
+}
+
+.courses {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.coursebox {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 16px 32px 16px;
+    background-color: white;
+}
+
+.coursebox-end {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 16px 32px 16px;
+    background-color: white;
+}
+
+.coursebox img, .coursebox-end img {
+    height: auto;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 16px;
+    margin-bottom: 24px;
+}
+
+.textbox h3 {
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.textbox h5 {
+    line-height: 200%;
+}
+
+.textbox h4, .textbox h5 {
+    margin-top: 8px;
+}
+
+.third {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+}
+
+.thesis {
+    display: flex;
+    width: 60%;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 32px 12px 0px 24px;
+    margin-bottom: 32px;
+}
+
+.viddiv {
+    max-width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 32px 24px 24px 24px;
+}
+
+.viddiv video {
+    width: 100%;
+    max-height: auto;
+    min-width: 0;
+}
+
+.vidinfo {
+    max-width: 100%;
+
+}
+
+
+.asidevid {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    width: 40%;
+    max-width: 40%;
+    max-height: auto;
+    height: auto;
+    margin: 32px 0px 0px 16px;
+    padding-top: 32px;
+}
+
+.minivid {
+    display: flex;
+    flex-direction: row; 
+}
+
+.minivid img {
+    width: 35%;
+    max-height: 100%;
+    min-width: 0;
+    max-height: auto;
+    height: auto;
+    margin: 16px 16px;
 }
