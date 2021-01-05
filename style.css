@@ -451,6 +451,9 @@ footer {
 
     .mobilebannerimg img {
         max-width: 100%;
+        width: 100%;
+        height: auto;
+        max-height: auto;
     }
 
     .bannerinfo {
