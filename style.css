@@ -417,6 +417,7 @@ footer {
     .bannerimg img {
         max-width: 100vw;
         object-fit: cover;
+        max-height: auto;
     }
     
     .bannerimg {
