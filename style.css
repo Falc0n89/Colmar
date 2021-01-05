@@ -94,6 +94,10 @@ li {
     
 }
 
+.mobilebannerimg {
+    display: none;
+}
+
 .bannerinfo {
     display: flex;
     box-sizing: border-box;
